@@ -1,0 +1,5 @@
+file = open("myfile.txt", "w+")
+file.write("Overwritten text")
+file.seek(0)
+print(file.read())
+file.close()

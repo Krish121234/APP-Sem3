@@ -1,0 +1,5 @@
+file = open("myfile.txt", "a+")
+file.write("\nAppended text")
+file.seek(0)
+print(file.read())
+file.close()
